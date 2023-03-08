@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUBWAY 써브웨이</title>
+    <link rel="shortcut icon" href="images/subway_favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/subway_font.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="header-wrap">
+            <div class="logo">
+                <img src="images/logo_w.png" alt="로고">
+            </div>
+            <div class="nav">
+                <!-- ul li a 쓰는 이유는 웹표준+ 웹 접근성 때문에 -->
+                <ul>
+                    <li><a href="#">메뉴소개</a></li>
+                    <li><a href="#">이용방법</a></li>
+                    <li><a href="#">새소식</a></li>
+                    <li><a href="#">써브웨이</a></li>
+                    <li><a href="#">가맹점</a></li>
+                </ul>
+            </div>
+            <div class="etc-menu">
+                <ul>
+                    <li><a href="#">가맹문의</a></li>
+                    <li><a href="#">온라인 주문</a></li>
+                    <li><a href="#"><img src="images/user-interface.png" alt="1"></a></li>
+                    <li><a href="#"><img src="images/worldwide.png" alt="1"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="submenu">
+            <div class="submenu-wrap">
+                <div class="sub-area">
+                    <ul>
+                        <li><a href="#">샌드위치</a></li>
+                        <li><a href="#">랩 · 기타</a></li>
+                        <li><a href="#">샐러드</a></li>
+                        <li><a href="#">스마일 썹</a></li>
+                        <li><a href="#">단체메뉴</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">써브웨이 이용방법</a></li>
+                        <li><a href="#">단체메뉴 이용방법</a></li>
+                        <li><a href="#">신선한 재료 소개</a></li>
+                        <li><a href="#">APP 이용방법</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">이벤트 · 프로모션</a></li>
+                        <li><a href="#">뉴스 · 공지사항</a></li>
+                        <li><a href="#">광고영상</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">써브웨이 역사</a></li>
+                        <li><a href="#">써브웨이 약속</a></li>
+                        <li><a href="#">샌드위치 아티스트 지원</a></li>
+                        <li><a href="#">매장찾기</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">써브웨이 프랜차이즈</a></li>
+                        <li><a href="#">가맹관련FAQ</a></li>
+                        <li><a href="#">가맹신청 · 문의</a></li>
+                        <li><a href="#">지사안내</a></li>
+                        <li><a href="#">사업설명회</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="swiper main-slide">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="#">
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="images/main-mobile-banner-1.jpg">
+                        <source media="(max-width: 1024px)" srcset="images/main-tab-banner-1.jpg">
+                        <img src="images/main-banner-1.jpg" alt="main">
+                    </picture>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#">
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="images/main-mobile-banner-2.jpg">
+                        <source media="(max-width: 1024px)" srcset="images/main-tab-banner-2.jpg">
+                        <img src="images/main-banner-2.jpg" alt="main">
+                    </picture>
+                </a>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-index">
+            <span>01</span>
+            <span>02</span>
+        </div>
+    </div>
+    <div class="notice">
+        <div class="notice-wrap">
+            <h3>공지사항</h3>
+            <div class="swiper notice-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#">샌드위치 가격 조정 안내 <span>23.01.26</span></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">서비스 장애 관련 안내 <span>22.10.17</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-area">
+                <div class="btn-prev">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="btn-next">
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+        </div>
+        <div class="popular-wrap">
+            <h3>실시간 인기메뉴</h3>
+            <div class="swiper popular-area">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide"><a href="#">1. 이탈리안 비엠티</a></li>
+                    <li class="swiper-slide"><a href="#">2. 써브웨이 클럽</a></li>
+                    <li class="swiper-slide"><a href="#">3. 에그마요</a></li>
+                    <li class="swiper-slide"><a href="#">4. 비엘티</a></li>
+                    <li class="swiper-slide"><a href="#">5. 로티세리 바비큐 치킨</a></li>
+                    <li class="swiper-slide"><a href="#">6. 쉬림프</a></li>
+                    <li class="swiper-slide"><a href="#">7. 폴드 포크 바비큐</a></li>
+                    <li class="swiper-slide"><a href="#">8. 스테이크&amp;치즈</a></li>
+                    <li class="swiper-slide"><a href="#">9. 스파이시 이탈리안</a></li>
+                    <li class="swiper-slide"><a href="#">10. 베지</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="best-content">
+        <div class="content-wrap">
+            <h3>BEST SUBWAY</h3>
+            <div class="best-area">
+                <div class="left">
+                    <ul>
+                        <li><a href="#"><img src="images/새 폴더/Steak-_-Cheese 정면.png" alt="1"></a></li>
+                        <li><a href="#"><img src="images/새 폴더/Roasted-Chicken_20211231095032718.png" alt="1"></a></li>
+                        <li><a href="#"><img src="images/새 폴더/Subway-Club™_20211231095518589.png" alt="1"></a></li>
+                    </ul>
+                </div>
+                <div class="center">
+                    <div class="center-content">
+                        <div class="title">
+                            <h3>스테이크&amp;치즈</h3>
+                        </div>
+                        <div class="desc">
+                            <p>고급스러운 스테이크와 고소하고 진한 치즈의 콜라보<br>신선한 야채와 함께 푸짐하고 완벽한 한끼가 완성됩니다!<br>다양한 토핑을추가해 나만의 메뉴를 즐겨보세요</p>
+                        </div>
+                        <div class="sub-title">
+                            <h3>더 맛있게 즐기는 <span>TIP</span></h3>
+                        </div>
+                        <div class="sub-item-wrap">
+                            <div class="sub-item">
+                                <img src="images/img_sauce03.jpg" alt="1">
+                                <p><span>+</span> CHEESE</p>
+                                <p>올리브오일과 후추를 살짝 뿌리면,<br>짜지않고 담백한 행복한 맛을 느낄 수 있습니다.</p>
+                            </div>
+                            <div class="sub-item">
+                                <img src="images/img_cheese.jpg" alt="1">
+                                <p><span>+</span>SAUCE</p>
+                                <p>달콤하게 즐기고 싶다면<br > 스윗어니언+마요네즈!<br>스테이크의 맛을 즐기고 싶다면 후추만 톡톡!</p>
+                            </div>
+                            <div class="sub-item">
+                                <img src="images/img_topping.jpg" alt="1">
+                                <p><span>-</span> VEGETABLE</p>
+                                <p>토마토, 오이를 빼면<br>고기의 풍미를 즐길 수 있습니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="center-content">
+                        <div class="title">
+                            <h3>로스트치킨</h3>
+                        </div>
+                        <div class="desc">
+                            <p>퍽퍽한 닭가슴살은 이제 그만!<br>
+                                로스트 치킨 샐러드는 가볍고 든든하게 즐길 수 있습니다.<br>
+                                샌드위치와 샐러드로 맛있고 든든하게 즐기세요.</p>
+                        </div>
+                        <div class="sub-title">
+                            <h3>더 맛있게 즐기는 <span>TIP</span></h3>
+                        </div>
+                        <div class="sub-item-wrap">
+                            <div class="sub-item">
+                                <img src="images/img_salad.jpg" alt="1">
+                                <p><span>+</span> SALAD</p>
+                                <p>로스트치킨은 샐러드로 드셔도 좋습니다.<br>관리의 시작은 써브웨이로부터!</p>
+                            </div>
+                            <div class="sub-item">
+                                <img src="images/sauce_ranch.png" alt="1">
+                                <p><span>+</span>SAUCE</p>
+                                <p>렌치로 고소하게 즐겨보세요!</p>
+                            </div>
+                            <div class="sub-item">
+                                <img src="images/img_topping.jpg" alt="1">
+                                <p><span>-</span> TOPPING</p>
+                                <p>올리브, 피클, 할라피뇨를 빼로 드시면,<br>담백하고 부드러운 로스트 치킨을<br>제대로 즐길 수 있습니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="center-content">
+                        <div class="title">
+                            <h3>써브웨이 클럽</h3>
+                        </div>
+                        <div class="desc">
+                            <p>고기의 단백질과 야채의 비타민으로 영양UP!<br>
+                                절임류 야채를 제외해서 더 담백하게,<br class="a"> 올리브오일을 넣어 부담은 DOWN!<br>
+                                써브웨이 클럽으로 건강한 하루를 보내세요.</p>
+                        </div>
+                        <div class="sub-title">
+                            <h3>더 맛있게 즐기는 <span>TIP</span></h3>
+                        </div>
+                        <div class="sub-item-wrap">
+                            <div class="sub-item">
+                                <img src="images/img_sauce03.jpg" alt="1">
+                                <p><span>+</span> SAUCE</p>
+                                <p>더블치즈로 치즈와 쇠고기의<br>완벽한 조화!</p>
+                            </div>
+                            <div class="sub-item">
+                                <img src="images/img_cheese.jpg" alt="1">
+                                <p><span>-</span> CHEESE</p>
+                                <p>치즈를 빼고 터키, 베이컨,<br>햄의 완벽한 조화를 느껴보세요!</p>
+                            </div>
+                            <div class="sub-item">
+                                <img src="images/img_topping.jpg" alt="1">
+                                <p><span>-</span> TOPPING</p>
+                                <p>올리브, 피클, 할라피뇨를 빼로 드시면,<br>담백하고 부드러운 로스트 치킨을<br>제대로 즐길 수 있습니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right swiper">
+                    <div class="swiper-wrapper">
+                        <div class="circle swiper-slide">
+                            <img src="images/새 폴더/img_sandwich03.png" alt="1">
+                        </div>
+                        <div class="circle swiper-slide">
+                            <img src="images/새 폴더/로스트 치킨 비스듬.png" alt="1">
+                        </div>
+                        <div class="circle swiper-slide">
+                            <img src="images/img_sandwich01.png" alt="1">
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="event-content">
+        <div class="content-wrap">
+            <h3>EVENT</h3>
+            <div class="event-img swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#"><img src="images/event-1.jpg" alt="event"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="images/event-2.jpg" alt="event"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="images/event-3.jpg" alt="event"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="images/event-4.jpg" alt="event"></a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="event-list">
+                <ul>
+                    <li><a href="#"><img src="images/event-s-2.jpg" alt="event"></a></li>
+                    <li><a href="#"><img src="images/event-s-3.jpg" alt="event"></a></li>
+                    <li><a href="#"><img src="images/event-s-4.jpg" alt="event"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 서브웨이메뉴 -->
+    <div class="subway-menu-content">
+        <div class="content-wrap">
+            <h3>SUBWAY MENU</h3>
+            <ul>
+                <li><a href="#">SANDWICH</a></li>
+                <li><a href="#">WRAP</a></li>
+                <li><a href="#">SALAD</a></li>
+                <li><a href="#">SMILE SUB</a></li>
+            </ul>
+            <div class="menu-content swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sandwich-Egg-Mayo.png" alt="에그마요">
+                            <p>에그마요</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sandwich-Italian_B.M.T.png" alt="이탈리안 비엠티">
+                            <p>이탈리안 비엠티</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sandwich-Ham.png" alt="햄">
+                            <p>햄</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sandwich-Tuna.png" alt="참치">
+                            <p>참치</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sandwich-Veggie.png" alt="베지">
+                            <p>베지</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sandwich-Subway-Club™.png" alt="써브웨이 클럽">
+                            <p>써브웨이 클럽</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sandwich-spicy_italian.png" alt="스파이시 이탈리안">
+                            <p>스파이시 이탈리안</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sandwich-Shrimp.png" alt="쉬림프">
+                            <p>쉬림프</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="menu-content swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/wrap-steak_n_cheese_avocado_wrap.jpg" alt="스테이크치즈아보카도랩">
+                            <p>스테이크&amp;치즈 아보카도 랩</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/wrap-shrimp_egg_mayo_wrap.jpg" alt="쉬림프 에그마요 랩">
+                            <p>쉬림프 에그마요 랩</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/wrap-chicken_bacon_mini_wrap.jpg" alt="치킨 베이컨 미니 랩">
+                            <p>치킨 베이컨 미니 랩</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/wrap-shrimp_egg_grilled_wrap.png" alt="쉬림프 에그 그릴드 랩">
+                            <p>쉬림프 에그 그릴드 랩</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/wrap-steak_n_cheese_avocado_grilled_wrap.png" alt="스테이크&amp;치즈 아보카도 그릴드 랩">
+                            <p>스테이크&amp;치즈 아보카도 그릴드 랩</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/wrap-chicken_bacon_mini_grilled_wrap.png" alt="치킨 베이컨 미니 그릴드 랩">
+                            <p>치킨 베이컨 미니 그릴드 랩</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="menu-content swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sal-머쉬룸.png" alt="머쉬룸">
+                            <p>머쉬룸</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sal-풀포크.png" alt="폴포크">
+                            <p>폴드 포크 바비큐</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sal-에그마요.png" alt="에그마요">
+                            <p>에그마요</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sal-베지.png" alt="베지">
+                            <p>베지</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sal-쉬림프.png" alt="쉬림프">
+                            <p>쉬림프</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sal-스테이크치즈.png" alt="스테이크치즈">
+                            <p>스테이크&amp;치즈</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sal-스파이시이탈리안.png" alt="스파이시이탈리안">
+                            <p>스파이시이탈리안</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sal-로스트치킨.png" alt="로스트치킨">
+                            <p>로스트치킨</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="menu-content swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sm-Sweetpotato.png" alt="고구마칩">
+                            <p>고구마 칩</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sm-베이컨치지웨지포테이토.jpg" alt="Bacon Cheesy 웨지 포테이토">
+                            <p>Bacon Cheesy 웨지 포테이토</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sm-치지웨지포테이토.jpg" alt="Cheesy 웨지 포테이토">
+                            <p>Cheesy 웨지 포테이토</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sm-Hashbrown.png" alt="해쉬브라운">
+                            <p>해쉬브라운</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sm-double_chocolate_chip.jpg" alt="더블 초코칩">
+                            <p>더블 초코칩</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sm-raspberry_cheese_cake.jpg" alt="라즈베리 치즈케익">
+                            <p>라즈베리 치즈케익</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sm-white_choco_macadamia.jpg" alt="화이트 초코 마카다미아">
+                            <p>화이트 초코 마카다미아</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="images/sm-oatmeal_rasin.jpg" alt="오트밀 레이즌">
+                            <p>오트밀 레이즌</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 매장찾기 -->
+    <div class="location-content">
+        <div class="content-wrap">
+            <h3>매장찾기</h3>
+            <div class="search">
+                <input type="text" placeholder="지역 또는 매장명 검색">
+            </div>
+        </div>
+    </div>
+    <!-- sns -->
+    <div class="subway-sns-content">
+        <div class="content-wrap">
+            <h3>SUBWAY's SNS</h3>
+            <ul>
+                <li><a href="#">YOUTUBE</a></li>
+                <li><a href="#">INSTAGRAM</a></li>
+                <li><a href="#">NAVER BLOG</a></li>
+            </ul>
+            <div class="tab-content swiper">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/youtube-1.jpg" alt="sns">
+                            <span>써브웨이 클래식</span>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/youtube-2.jpg" alt="sns">
+                            <span>써브웨이 #better_choice</span>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/youtube-3.jpg" alt="sns">
+                            <span>스파이시 쉬림프</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="tab-content swiper">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/insta-1.jpg" alt="sns">
+                            <span>다섯태오의 별명짓기</span>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/insta-2.jpg" alt="sns">
+                            <span>카도들이 뛰는 이유는?</span>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/insta-3.jpg" alt="sns">
+                            <span>500호점 기념,500원 할인!</span>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/insta-4.jpg" alt="sns">
+                            <span>NEW고구마칩&amp;해쉬브라운</span>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/insta-5.jpg" alt="sns">
+                            <span>내가 제일 잘나가!</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="tab-content swiper">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/blog-1.jpg" alt="sns">
+                            <span>써브웨이 10월 행사</span>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/blog-2.jpg" alt="sns">
+                            <span>써브웨이 매일 먹는 에그마요</span>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="images/blog-3.jpg" alt="sns">
+                            <span>써브웨이 다이어트 샌드위치 꿀조합</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 푸터 -->
+    <div class="footer">
+        <!-- 가운데 -->
+        <div class="footer-wrap">
+            <div class="footer-top">
+                <ul>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">써브카드</a></li>
+                    <li><a href="#">점주관리자</a></li>
+                    <li><a href="#">Subway Listens</a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <span>서울시 서초구 강남대로 535 프린스빌딩 15층</span>
+                <span>대표 : INSOO CHO(인수조)</span>
+                <span>전화 : 02-797-5036</span>
+                <span>사업자등록번호 : 101-84-04143</span>
+                <p>SUBWAY® is a Registered Trademark of Subway IP LLC. © 2021 Subway IP LLC. All Rights Reserved.</p>
+            </div>
+            <div class="sns-link">
+                <ul>
+                    <li><a href="#">인스타그램</a></li>
+                    <li><a href="#">페이스북</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 햄버거 -->
+    <div class="hamburger">
+        <i class="fa-solid fa-bars fa-2x"></i>
+    </div>
+    <div class="m-nav">
+        <i class="fa-solid fa-close fa-2x"></i>
+        <div class="top">
+            <ul>
+                <li><a href="#">가맹문의</a></li>
+                <li><a href="#">온라인 주문</a></li>
+            </ul>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">메뉴소개 <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="#">샌드위치</a></li>
+                        <li><a href="#">랩 · 기타</a></li>
+                        <li><a href="#">샐러드</a></li>
+                        <li><a href="#">스마일 썹</a></li>
+                        <li><a href="#">단체메뉴</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">이용방법 <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="#">써브웨이 이용방법</a></li>
+                        <li><a href="#">단체메뉴 이용방법</a></li>
+                        <li><a href="#">신선한 재료 소개</a></li>
+                        <li><a href="#">APP 이용방법</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">새소식 <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="#">이벤트 · 프로모션</a></li>
+                        <li><a href="#">뉴스 · 공지사항</a></li>
+                        <li><a href="#">광고영상</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">써브웨이 <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="#">써브웨이 역사</a></li>
+                        <li><a href="#">써브웨이 약속</a></li>
+                        <li><a href="#">샌드위치 아티스트 지원</a></li>
+                        <li><a href="#">매장찾기</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">가맹점 <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="#">써브웨이 프랜차이즈</a></li>
+                        <li><a href="#">가맹관련FAQ</a></li>
+                        <li><a href="#">가맹신청 · 문의</a></li>
+                        <li><a href="#">지사안내</a></li>
+                        <li><a href="#">사업설명회</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
